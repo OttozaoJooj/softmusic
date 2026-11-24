@@ -1,21 +1,8 @@
-class Music{
-    private name : string;
-    constructor(name : string){
-        this.name = name;        
-    
-    }
-
-    get Name() : string{
-        return this.name;
-    }
-
-    set Name(name : string){
-        this.name = name;
-    }
-}
+import PromptSync from "prompt-sync";
+import Music from "./classes/Music";
 
 
 const music: Music = new Music("Time");
 
 
-console.log(music.Name);
+console.log(name);
