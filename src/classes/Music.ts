@@ -1,5 +1,5 @@
 export default class Music{
-    private name : string;
+    /*
 
     
     public getName() : string{
@@ -9,7 +9,7 @@ export default class Music{
     public setName(name: string){
         this.name = name
     }
-
+*/
     
 }
 
