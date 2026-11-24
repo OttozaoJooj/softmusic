@@ -1,18 +1,25 @@
+import PromptSync from "prompt-sync";
 import { ControllerInterface } from "../interfaces/ControllerInterface";
+import Music from "../classes/Music";
 
 export default class MusicController implements ControllerInterface{
 
-    constructor(){
-        console.log('const');
-    }
+    private music : Music = new Music();
 
     public start() : void{
-        console.log('Music Controller')
-        
+        this.questions();
     }
 
     private questions() : void{
+                
+        const p = PromptSync();
 
+        this.music.setName(p("Digite seu nome: "))
+        
+
+
+        
+        
     }
 
     
